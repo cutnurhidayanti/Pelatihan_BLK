@@ -10,5 +10,8 @@ do {
         i++
     }
 
-    ulang = false
+    // ulang = false
 } while (ulang);
+ 
+
+//
