@@ -1,5 +1,8 @@
 let tinggi = [
-    {nama : "rose",tinggi_badan : 178},
+    {
+        nama : "rose",
+        tinggi_badan : 178
+    },
     {
         nama : "magnolia",
         tinggi_badan : 153
