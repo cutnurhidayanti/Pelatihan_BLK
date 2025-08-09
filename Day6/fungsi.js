@@ -2,9 +2,11 @@ function hitungLuas(sisi) {
     return sisi*sisi
 }
 
-function hitungKeliling(sisi) {
-    return 4*sisi
-}
+// function hitungKeliling(sisi) {
+//     return 4*sisi
+// }
+
+hitungKeliling((sisi)=>4*sisi) // cara mempersingkat function
 
 function tampilkanPersegi(sisi) {
     console.log("==============persegi==============")
