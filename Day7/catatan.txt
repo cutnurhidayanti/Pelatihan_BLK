@@ -1,1 +1,5 @@
 1. crud pake json
+2. aws
+3. azure
+4. hosting-domain
+5. vercel web hosting
