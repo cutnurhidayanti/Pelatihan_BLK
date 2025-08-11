@@ -3,14 +3,12 @@ let hargaSepatu = [
     {nama : "Nike Vomero 5", harga : 350},
     {nama : "Adidas Samba", harga : 180},
     {nama : "Onitsula Tiger Mexico", harga :420}
-
 ]
 
+// menghitunga diskon
 function hitungDiscount(totalBelanja) {
-        // hitung discount
     let diskon
     let totalSetelahDiscount =0   
-
     if (totalBelanja < 250){
         diskon = 0
         totalSetelahDiscount = totalBelanja - totalBelanja*diskon
@@ -24,15 +22,15 @@ function hitungDiscount(totalBelanja) {
         diskon = 15/100
         totalSetelahDiscount = totalBelanja - totalBelanja*diskon
     }
-    
     return [totalSetelahDiscount, diskon]
 }
 
+// hitung pembayaran
 function pembayaran(uang, diskon) {
     return (uang - diskon)
 }
 
-
+// menampilkan barang
 function  tampilkanBarang() {
     let count = 1
     let totalBelanja = 0
@@ -53,15 +51,8 @@ function  tampilkanBarang() {
     console.log("diskon : "+(diskon[1]*100)+"%");
     console.log("Total setelah diskon : Rp."+diskon[0]+"000");
     console.log("pembayaran : Rp."+uang+"000");
-    console.log("kembaliam : Rp."+kembalian+"000");
-    
-    
-    
-    
+    console.log("kembaliam : Rp."+kembalian+"000");  
 
 }
-
-
-
 
 tampilkanBarang()
