@@ -14,3 +14,4 @@ let lulus = angka.filter(function (nilai) {
 })
 
 console.log(lulus);
+
