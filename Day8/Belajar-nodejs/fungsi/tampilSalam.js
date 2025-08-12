@@ -2,7 +2,7 @@
  * menampilkan salam ke terminal
  */
 
-function tampilkanSalam(params) {
+function tampilkanSalam() {
     const pesan = "halo selamat malam"
 
     console.log(pesan);
